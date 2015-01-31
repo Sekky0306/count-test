@@ -28,6 +28,7 @@
     
     
     
+   
     label.text=[NSString stringWithFormat:@"%d",number];
 }
 -(IBAction)mainasu{
