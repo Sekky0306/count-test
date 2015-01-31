@@ -23,5 +23,21 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(IBAction)plus{
+    number=number+1;
+    
+    
+    
+    label.text=[NSString stringWithFormat:@"%d",number];
+}
+-(IBAction)mainasu{
+    number=number-1;
+    label.text=[NSString stringWithFormat:@"%d",number];
+}
+-(IBAction)clear{
+    number=0;
+    label.text=[NSString stringWithFormat:@"%d",number];
+}
+
 
 @end
