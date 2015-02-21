@@ -15,6 +15,8 @@
 -(IBAction)plus;
 -(IBAction)mainasu;
 -(IBAction)clear;
+-(IBAction)kakeru;
+-(IBAction)waru;
 
 @end
 

@@ -16,44 +16,76 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZn-SG-tH4">
-                                <rect key="frame" x="100" y="75" width="116" height="67"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZn-SG-tH4">
+                                <rect key="frame" x="0.0" y="20" width="320" height="96"/>
+                                <color key="backgroundColor" red="0.18010907589543124" green="0.0" blue="0.22442237367021278" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <color key="textColor" red="0.99692375440000003" green="1" blue="0.97828166009999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UbL-dC-AWt">
-                                <rect key="frame" x="103" y="366" width="90" height="63"/>
+                                <rect key="frame" x="214" y="265" width="90" height="60"/>
                                 <color key="backgroundColor" red="1" green="0.24451695401703166" blue="0.51180051797819892" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="-">
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="ひく">
+                                    <color key="titleColor" red="0.636986031521942" green="1" blue="0.79732036438510467" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="mainasu" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0Ae-Km-VRf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3U-a0-rQy">
-                                <rect key="frame" x="103" y="470" width="90" height="62"/>
-                                <color key="backgroundColor" red="1" green="0.95296482317798947" blue="0.24274921042195674" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="clear">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="clear" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dTl-wy-qXC"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OC1-Sl-U1A">
-                                <rect key="frame" x="103" y="267" width="90" height="62"/>
+                                <rect key="frame" x="16" y="266" width="90" height="60"/>
                                 <color key="backgroundColor" red="0.33017585949545136" green="0.97547573768341778" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="+">
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="たす">
+                                    <color key="titleColor" red="1" green="0.8602085810986817" blue="0.30900715101806775" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="plus" destination="vXZ-lx-hvc" eventType="touchUpInside" id="s4z-Ii-uFL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxL-JP-G6v">
+                                <rect key="frame" x="16" y="394" width="90" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.46856091940818223" blue="0.9467050536029904" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="かける">
+                                    <color key="titleColor" red="0.82149800432761844" green="1" blue="0.64322914578345536" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="kakeru" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ed0-CN-PRz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2O7-L1-R2m">
+                                <rect key="frame" x="214" y="394" width="90" height="60"/>
+                                <color key="backgroundColor" red="0.49957905837280203" green="0.65130806121822782" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="わる">
+                                    <color key="titleColor" red="1" green="0.94529701822139456" blue="0.53167181096747185" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="waru" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jKG-C5-Ul3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3U-a0-rQy">
+                                <rect key="frame" x="98" y="488" width="125" height="60"/>
+                                <color key="backgroundColor" red="1" green="0.95296482317798947" blue="0.24274921042195674" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="やりなおし">
+                                    <color key="titleColor" red="0.51709003489204219" green="0.66440103008730644" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clear" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dTl-wy-qXC"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.84547723466435931" green="0.88983800224949783" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="label" destination="fZn-SG-tH4" id="HiH-V2-uS6"/>

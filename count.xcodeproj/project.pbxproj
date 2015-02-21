@@ -343,9 +343,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuki Sekido (E2HTUVK94M)";
 				INFOPLIST_FILE = count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fec79b6e-7d95-492c-88eb-b92fc68bad74";
 			};
 			name = Debug;
 		};
@@ -353,9 +355,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuki Sekido (E2HTUVK94M)";
 				INFOPLIST_FILE = count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fec79b6e-7d95-492c-88eb-b92fc68bad74";
 			};
 			name = Release;
 		};
@@ -412,6 +416,7 @@
 				3E9D3B441A7C832500C19DA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E9D3B451A7C832500C19DA4 /* Build configuration list for PBXNativeTarget "countTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				3E9D3B471A7C832500C19DA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

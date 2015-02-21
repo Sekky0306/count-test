@@ -25,10 +25,6 @@
 }
 -(IBAction)plus{
     number=number+1;
-    
-    
-    
-   
     label.text=[NSString stringWithFormat:@"%d",number];
 }
 -(IBAction)mainasu{
@@ -39,6 +35,17 @@
     number=0;
     label.text=[NSString stringWithFormat:@"%d",number];
 }
+-(IBAction)kakeru{
+    number=number*2;
+    label.text=[NSString stringWithFormat:@"%d",number];
+}
+
+-(IBAction)waru{
+    number=number/2;
+    label.text=[NSString stringWithFormat:@"%d",number];
+}
+
+
 
 
 @end
