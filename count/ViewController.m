@@ -24,12 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 -(IBAction)plus{
+    
     number=number+1;
     label.text=[NSString stringWithFormat:@"%d",number];
+    [self textRed] ;
 }
 -(IBAction)mainasu{
     number=number-1;
     label.text=[NSString stringWithFormat:@"%d",number];
+    [self textRed] ;
 }
 -(IBAction)clear{
     number=0;
@@ -38,11 +41,19 @@
 -(IBAction)kakeru{
     number=number*2;
     label.text=[NSString stringWithFormat:@"%d",number];
+    [self textRed] ;
 }
 
 -(IBAction)waru{
     number=number/2;
     label.text=[NSString stringWithFormat:@"%d",number];
+    [self textRed] ;
+}
+-(void)textRed
+{
+    if (number<=0) {
+        label.textColor=[UIColor redColor];
+    }
 }
 
 
