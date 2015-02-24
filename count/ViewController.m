@@ -54,6 +54,9 @@
     if (number<=0) {
         label.textColor=[UIColor redColor];
     }
+    else{
+      label.textColor=[UIColor whiteColor];
+    }
 }
 
 
