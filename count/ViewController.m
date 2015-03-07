@@ -52,6 +52,9 @@
 -(void)textRed
 {
     if (number<=0) {
+        label.textColor=[UIColor blueColor];
+    }
+    else if (number>=100){
         label.textColor=[UIColor redColor];
     }
     else{
